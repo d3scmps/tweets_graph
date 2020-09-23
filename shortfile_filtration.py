@@ -5,12 +5,6 @@ from tqdm import tqdm
 from math import sqrt, log
 from collections import Counter
 
-import csv
-import networkx as nx 
-import datetime
-from tqdm import tqdm
-from math import sqrt, log
-from collections import Counter, OrderedDict
 
 def processing_file(file):
     with open(file) as f, open("fichier_filtrepetit.csv","w") as f2:
