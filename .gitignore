@@ -1,0 +1,4 @@
+*.gexf
+*.svg
+*.csv
+insert_att.py
